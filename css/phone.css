@@ -1,0 +1,86 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+    /*  */
+
+    width: 100%;
+    padding: 10px 0%;
+}
+
+#navbar ul li {
+    font-size: 1rem;
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 0px 0.5rem;
+}
+/* services */
+#services{
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+}
+#services .box{
+    padding: 34px;
+    margin: 10px 1px;
+}
+/* Services */
+#services-container{
+    width: 102%;
+}
+#services .box img{
+    height: 85px;
+}
+/* clients */
+#clients{
+overflow: auto;
+    
+}
+#client-section::before{
+    width: 100%;
+}
+/* Contact */
+#contact-box form{
+    width: 80%;
+}
+
+#home{
+    padding: 3px 3px;
+    height: 410px;
+}
+#home::before{
+    height: 550px;
+    width: 100%;
+}
+@keyframes Aditya {
+    0% {
+        font-size: 1.0rem;
+
+    }
+
+    50% {
+        background-color: rgba(229, 56, 56, 0.363);
+        border-radius: 20px;
+        font-size: 1.2rem;
+    }
+
+    100% {
+        font-size: 1.0rem;
+    }
+}
+#home p{
+    font-size: 1.1rem;
+}
+/* utiltity class */
+.h-primary{
+    font-size: 2vh;
+}
+.center {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    font-size: 1.9vh;
+}
